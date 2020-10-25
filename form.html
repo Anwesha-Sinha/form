@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title > Survey Form</title>
+    </head>
+    <style>
+        
+        fieldset{
+            background-color: yellow;  
+          color:black;
+        }
+        form{
+            background-color: yellow;
+            padding: 20px 10px;
+        }
+        body{
+            background-color: purple;
+            padding: 0px 300px;
+        }
+        h1{
+            color: white;
+        }
+   
+ 
+    </style>
+    <body background>
+        <h1 style="text-align: center;">Survey Form</h1>
+        <form >
+            
+            <fieldset style="text-align: center;" >
+              <legend>Let us know how we can improve freeCodeCamp</legend>
+              <label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Name:</b></label><input type="text" name="Textbox1" placeholder="Enter your name" size="30" required><br><br>
+                <label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Email:</b></label><input type="email" name="Textbox2" placeholder="Enter your Email" size="30" required><br><br>
+                <label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Age:</b></label><input type="text" name="Number" placeholder="Age" size="30" required><br><br>
+                <label><b>Which option best describes your current role?</b></label>
+                <select name="option">
+                    <option>Student</option>
+                    <option>Professional</option>
+                    <option>Teacher</option>
+                    <option>Social Worker</option>
+                    <option>Others</option>
+                </select><br><br>
+                <div>
+
+                    <label><b>*How likely is that you would recommend</b> </label>
+                    <label><input type="radio" name="radio" required>Definitely</label><br>
+                    
+                    <label><b>   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;   freeCodeCamp to a friend?</b> </label>
+                    <label><input type="radio" name="radio" required>Maybe</label><br>
+                    <label><b>   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; 
+                          &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; 
+                          &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; </b> </label>
+                    <label><input type="radio" name="radio" required>Not sure</label>
+                </div>
+             
+                        
+             
+                    <br><br> <label><b>What do you like most in FCC:</b></label>
+                <select >
+                    <option value="" disabled selected hidden>Select an option</option>
+                    <option value="0">Java</option>
+                    <option value="1">Python</option>
+                    <option value="2">c++</option>
+                    <option value="3">Web dev</option>
+                    <option value="4">App dev</option>
+                    <option value="5">Others</option>
+                </select>
+                
+                 
+                
+                <br><br>
+                
+                <div>
+                    <label><b>
+                        Things that should be inproved in future 
+                         
+                    </b></label>
+                    <label><input type="checkbox" name="c1">Front-end Development</label><br>
+                    <label><b>
+                        &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (check all that apply):
+                        </b></label>
+                        <labe style="align-content: center;"><input type="checkbox" name="c2">Back-end Development</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+                            </b></label>
+                            <label><input type="checkbox" name="c3">Data Visualization</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                         
+                            </b></label> 
+                            <label><input type="checkbox" name="c4">Challenges</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                         &nbsp;
+                            </b></label> 
+                            <label><input type="checkbox" name="c5">Open Source Community</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;
+                            </b></label> 
+                            <label><input type="checkbox" name="c6">Gitter help rooms</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp; 
+                            </b></label> 
+                            <label><input type="checkbox" name="c7">Videos</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp; 
+                            </b></label> 
+                            <label><input type="checkbox" name="c8">City meetups</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp; 
+                            </b></label> 
+                            <label><input type="checkbox" name="c9">Wiki</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp; 
+                            </b></label> 
+                            <label><input type="checkbox" name="c10">Forum</label><br>
+                            <label><b>
+                                &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp; 
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </b></label> 
+                            <label><input type="checkbox" name="c11">Additional Courses</label><br>
+                </div>
+                <br><br>
+                <span><b>Any comments or Suggestions?</b></span>
+                
+                <textarea style="vertical-align: initial;" >
+                  Enter your comment here...
+                </textarea>
+                <p><input type="submit" value="Submit"style="font-size:10pt;color:white;background-color:blue;border:2px solid #336600;padding:5px 10px "></p>
+            </fieldset>
+        </form>
+    </body>
+</html>
